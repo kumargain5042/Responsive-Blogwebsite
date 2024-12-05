@@ -1,0 +1,68 @@
+
+
+.content-contact {
+
+    /* display: flex; */
+ 
+    height:100vh;
+    /* background-color:rgb(61, 61, 95); */
+    margin: auto;
+    margin-top: 32px;
+    padding: 12px;
+    position: relative;
+    overflow: hidden;
+    font-family: var(--font1);
+
+
+}
+
+.content-contact::after {
+    content: "";
+    background-image: url("../Blog.img/img-18.jpg");
+    position: absolute;
+    top: 20px;
+    width: 98.7%;
+    height: inherit;
+    opacity: 0.3;
+    border-radius: 20px;
+    z-index: -1;
+   
+}
+
+hr {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.hr {
+    max-width: 80vw;
+    margin: auto;
+    padding: 10px;
+}
+
+.content-contact .line{
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 20px;
+}
+
+.contact-form input, textarea{
+    width: 52vw;
+    padding: 12px 0px;
+    margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font1);
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+
+.contact-form textarea{
+    height: 297px;
+}
+
+
+
+
+
+

@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: var(--font1);
+    /* height: 74px; */
+    background-color: rgb(232, 158, 132);
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    /* position: sticky; */
+    border-radius: 10px;
+
+}
+
+.nav-left {
+
+    font-size: 35px;
+    display: flex;
+
+}
+
+.nav-left .logo img {
+    /* font-weight: 600; */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 9px;
+
+}
+
+
+.nav-left ul li {
+
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+
+
+}
+
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+}
+
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+}
+
+.nav-left ul li a:hover {
+    font-size: 1.5rem;
+    color: purple;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.content {
+
+    display: flex;
+    height: 100%;
+    /* background-color:rgb(61, 61, 95); */
+    margin: auto;
+    padding: 10px;
+    position: relative;
+
+}
+
+.content::after {
+    content: "";
+    background-image: url("../Blog.img/img-16.jpg");
+    position: absolute;
+    width: 98.7%;
+    height: inherit;
+    opacity: 0.2;
+    border-radius: 10px;
+
+
+}
+
+.content .content-left {
+    font-family: var(--font1);
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+
+}
+
+.content .content-left p {
+    margin-top: 30px;
+}
+
+.content .content-right {
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .content-right img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 152px;
+
+
+}
+
+.hr {
+    max-width: 80vw;
+    margin: auto;
+
+
+    /* margin-top: 10px;
+    margin-bottom: 10px;  */
+}
+
+
+.home-Articles {
+
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: var(--font1);
+    background-color: rgb(250, 232, 232);
+    border-radius: 10px;
+    position: relative;
+
+
+
+}
+
+.year-box {
+    position: absolute;
+    width: 234px;
+    height: 255px;
+    /* background-color:red; */
+    right: 0px;
+    /* top: 100px; */
+    font-size: 18px;
+
+}
+
+.year-box div {
+    margin: 12px 0px;
+
+}
+
+.year-box div input {
+    cursor: pointer;
+}
+
+
+
+.home-article {
+    display: flex;
+    margin: 25px;
+
+    /* align-items: center;
+    justify-content: center;  */
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.home-article-img img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 13px;
+    width: 300px
+}
+
+.home-article-content .span-2{
+    color:  rgb(2, 2, 69);
+}
+
+.home-article-content div span{
+    color: brown;
+    font-weight: 600;
+}
+
+.home-article-content h3{
+    cursor:auto;
+}
+
+.home-article-content h3 .btn-1{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.home-article-content h3 .btn-1:hover{
+    background-color: rgb(2, 2, 69);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.home-article-content .Read{
+    margin-left: 23px;
+    margin-top: 15px;
+}
+
+
+.home-article-content a .btn-2{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.home-article-content a .btn-2:hover{
+    background-color: rgb(2, 2, 69);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: rgb(128, 42, 188);
+}
+
+
+
+.footer {
+    margin: auto;
+    margin-top: 10px;
+    height: 55px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.footer a {
+    color: rgb(2, 2, 69);
+}
+
+.about{
+margin: auto;
+background-color: antiquewhite ;
+height:100vh;
+border: 2px solid black;
+border-radius: 20px;
+}
+
+.second {
+    height: 40vh;
+    align-items: center;
+}
+
+.bio-heading {
+
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.9rem;
+ 
+
+}
+
+.second  hr{
+    margin: 0 12rem;
+}
+
+.bio-matter {
+    margin: auto;
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 1rem;
+    width: 39vw;
+    
+    
+    
+  
+}
+
+.bio-matter .bio-color {
+    color: rgb(170, 107, 228);
+}
